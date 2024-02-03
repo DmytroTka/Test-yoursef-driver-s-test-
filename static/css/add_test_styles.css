@@ -1,0 +1,32 @@
+.form_div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    /*color: red;*/
+}
+
+.page_title{
+    text-align: center;
+}
+
+label{
+    font-size: 18px;
+    text-align: center;
+}
+input{
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.submit_button{
+    background: #19e370;
+    height: 2em;
+    width: 100px;
+    border: 0px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}

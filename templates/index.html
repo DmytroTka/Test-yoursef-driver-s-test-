@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index_styles.css')}}">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Driver's test</h1>
+    <div class="site_links">
+        <a href="/add_test" ><button style="background: #19e370;">Add test +</button></a>
+        <a href="/drivers_test"><button>View tests</button></a>
+    </div>
+    <!---->
+
+</div>
+{% endblock %}

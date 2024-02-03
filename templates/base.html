@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Driver's test</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base_styles.css')}}">
+    {% block styles %}{% endblock %}
+</head>
+<body>
+    <header>
+        <h1 class="app_title">Test yourself</h1>
+
+        <a href="/add_test">Add test</a>
+        <a href="/drivers_test">View test</a>
+        <a href="/" >Main page</a>
+        <!--<hr>-->
+    </header>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+</body>
+</html>

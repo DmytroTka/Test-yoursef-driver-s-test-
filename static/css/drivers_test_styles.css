@@ -1,0 +1,31 @@
+.tests_div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 0em 1em 1em 1em;
+    background: #e6e6e6;
+    border-radius: 5px;
+}
+
+.page_title{
+    text-align: center;
+}
+
+
+span, label, input{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 0.02em;
+}
+
+.submit_button{
+    background: #19e370;
+    height: 2em;
+    /*width: 100px;*/
+    border: 0px;
+    border-radius: 5px;
+    /*display: block;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    cursor: pointer;
+}
